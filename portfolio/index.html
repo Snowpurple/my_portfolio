@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sneha Yadav | UI/UX Designer</title>
+    <meta name="description" content="Portfolio of Sneha Yadav, an aspiring UI/UX designer with a B.Tech background in Computer Science and AI/ML." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Licorice&family=Protest+Riot&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <a class="skip" href="#home">Skip to content</a>
+
+    <!-- ============ Navigation ============ -->
+    <header class="nav" id="top">
+        <div class="nav__bar">
+            <a class="brand" href="#home" aria-label="Sneha Yadav, back to top">
+                <span class="brand__mark" aria-hidden="true"><span class="brand__inner">s</span></span>
+                <span class="brand__name">Sneha Yadav</span>
+            </a>
+
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+            <nav class="nav__menu" id="menu" aria-label="Main">
+                <a href="#home" data-section="home">Home</a>
+                <a href="#projects" data-section="projects">Projects</a>
+                <a href="#about" data-section="about">About Me</a>
+                <a href="#connect" data-section="connect">Resume</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page">
+
+        <!-- ============ Home ============ -->
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <h1 class="hero__title" id="hero-title">
+                <span>Hi,</span>
+                <span class="photo photo--hero" aria-hidden="true">
+          <span class="photo__back"></span>
+                <img class="photo__img" src="assets/first.avif
+                " alt="" width="130" height="130" />
+                </span>
+                <span>I’m Sneha!</span>
+            </h1>
+
+            <p class="hero__lead">Aspiring UI/UX Designer with a B.Tech background in Computer Science and AI/ML, skilled in Figma, wireframing, prototyping, and Auto Layout.</p>
+
+            <ul class="tools" aria-label="Tools I use">
+                <li><img src="assets/figma.webp" alt="" width="60" height="60" /></li>
+                <li><img src="assets/canva.webp" alt="" width="60" height="60" /></li>
+                <li><img src="assets/html.webp" alt="" width="60" height="60" /></li>
+                <li><img src="assets/css.webp" alt="" width="60" height="60" /></li>
+                <li><img src="assets/vs_code.webp" alt="" width="60" height="60" /></li>
+            </ul>
+
+            <a class="scroll-cue" href="#projects" aria-label="Scroll down to projects">
+                <svg viewBox="0 0 24 50" width="30" height="50" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v43"/><path d="M3 36l9 10 9-10"/></svg>
+            </a>
+        </section>
+
+        <!-- ============ Projects ============ -->
+        <section class="projects" id="projects" aria-labelledby="projects-title">
+            <h2 class="section-title" id="projects-title">Projects</h2>
+
+            <ul class="projects__grid">
+                <li>
+                    <a class="project" href="case-study.html?p=kisan-verse" aria-label="Open the Kisan-Verse case study">
+                        <span class="project__img"><img src="assets/noImage.webp" alt="Kisan-Verse app screens" width="610" height="340" loading="lazy" /><span class="project__cta">View case study <i aria-hidden="true">&rarr;</i></span></span>
+                        <span class="project__type">Mobile Application</span>
+                        <span class="project__title">Kisan-Verse</span>
+                        <span class="project__desc">A dashboard application that provides all the required information in single screen with the experts help and suggests action plans</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="project" href="case-study.html?p=ishavarya" aria-label="Open the Ishavarya case study">
+                        <span class="project__img project__img--crop"><img src="assets/ishavarya.avif" alt="Ishavarya website on a phone" width="610" height="340" loading="lazy" /><span class="project__cta">View case study <i aria-hidden="true">&rarr;</i></span></span>
+                        <span class="project__type">Website</span>
+                        <span class="project__title">Ishavarya</span>
+                        <span class="project__desc">A dashboard application that provides all the required information in single screen with the experts help and suggests action plans</span>
+                    </a>
+                </li>
+                <li>
+                    <div class="project project--soon" aria-label="Closet, coming soon">
+                        <span class="project__img"><img src="assets/noImage.webp" alt="" width="610" height="340" loading="lazy" /></span>
+                        <span class="project__type">Mobile Application</span>
+                        <span class="project__title">Closet(Comming soon)</span>
+                        <span class="project__desc">A dashboard application that provides all the required information in single screen with the experts help and suggests action plans</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="project project--soon" aria-label="Coming soon">
+                        <span class="project__img"><img src="assets/noImage.webp" alt="" width="610" height="340" loading="lazy" /></span>
+                        <span class="project__type">Mobile Application</span>
+                        <span class="project__title">Coming&nbsp; soon</span>
+                        <span class="project__desc">A dashboard application that provides all the required information in single screen with the experts help and suggests action plans</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- ============ About ============ -->
+        <section class="about" id="about" aria-labelledby="about-title">
+            <div class="about__text">
+                <h2 class="about__title" id="about-title">About Me</h2>
+                <p>Aspiring UI/UX Designer with a B.Tech background in Computer Science and AI/ML, skilled in Figma, wireframing, prototyping, and Auto Layout.</p>
+                <p>Passionate about user-centered design, responsive interfaces, and usability, with a focus on creating intuitive, accessible, and visually engaging digital experiences.</p>
+            </div>
+            <div class="photo photo--about" aria-hidden="true">
+                <span class="photo__back"></span>
+                <img class="photo__img" src="assets/Pink_shirt.avif" alt="" width="410" height="350" loading="lazy" />
+            </div>
+        </section>
+
+        <!-- ============ Quote ============ -->
+        <section class="quote" aria-label="Quote">
+            <p>To create Something, One should ask Questions</p>
+        </section>
+
+        <!-- ============ Connect ============ -->
+        <section class="connect" id="connect" aria-labelledby="connect-title">
+            <p class="connect__lead">Want to turn your vision into reality?</p>
+            <h2 class="connect__title" id="connect-title">Let’s Connect</h2>
+
+            <div class="connect__buttons">
+                <!-- PASTE YOUR RESUME LINK in the href below (Google Drive share link, or a PDF path like assets/resume.pdf) -->
+                <a class="btn" id="resume-link" href="assets/uiux_resume2.pdf" target="_blank" rel="noopener">Resume</a>
+                <!-- PASTE YOUR LINKEDIN PROFILE LINK in the href below -->
+                <a class="btn" id="linkedin-link" href="https://www.linkedin.com/in/sneha-yadav-09ba0a300/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+
+            <a class="connect__mail" href="mailto:snehayadav.2089@gmail.com">
+                <svg viewBox="0 0 25 24" width="25" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10a4 4 0 0 1 4-4h11a4 4 0 0 1 4 4v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-8Z"/><path d="M12.500 19v-6"/><path d="M8 11.500h5"/><path d="M12.500 6V4.500h3"/></svg>                snehayadav.2089@gmail.com
+            </a>
+        </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
